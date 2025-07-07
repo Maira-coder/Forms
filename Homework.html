@@ -5,7 +5,9 @@
     </head>
     <body>
         <h1>Test Average</h1>
-        <form>
+        <form action="/action_page.php"
+            oninput="x.value=
+            (parseInt(m1.value)+ parseInt(m2.value)+ parseInt(m3.value))/3">
             <fieldset>              
             <legend>Personal Details</legend>
 
@@ -26,9 +28,7 @@
             
             <fieldset>  
                 <legend>Enter Your Marks</legend>   
-            <form action="/action_page.php"
-            oninput="x.value=
-            (parseInt(m1.value)+ parseInt(m2.value)+ parseInt(m3.value))/3">
+        
         
             <label>Enter Marks</label><br>
             <select name="Subject" id="subject">
